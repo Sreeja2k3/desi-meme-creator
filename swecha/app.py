@@ -5,7 +5,6 @@ import io
 import textwrap
 import random
 import datetime
-import emoji
 
 # Set page config
 st.set_page_config(
@@ -54,10 +53,6 @@ font_size = st.sidebar.slider("🔠 Font Size", 20, 100, 40)
 
 # Font color
 font_color = st.sidebar.color_picker("🎨 Font Color", "#FFFFFF")
-
-# Emoji picker
-emoji_list = ["😂", "🔥", "😎", "🤯", "🤡", "🥲"]
-selected_emojis = st.sidebar.multiselect("😜 Add Emojis", emoji_list)
 
 # Font style selection
 fonts_dir = "fonts"
