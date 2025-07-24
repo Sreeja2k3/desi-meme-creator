@@ -20,7 +20,7 @@ Desi Meme Creator is a simple, fun web app where you can design memes using icon
 
  Sneak Peek
 
-![ss](Screenshot%20(1).png)
+![ss](Screenshot (4).png)
 
 ---
 
