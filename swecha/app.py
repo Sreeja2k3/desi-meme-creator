@@ -3,7 +3,6 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 import io
 import textwrap
-import random
 import datetime
 
 # Set page config
@@ -82,11 +81,7 @@ if uploaded_image is not None and selected_font:
         font = ImageFont.load_default()
 
     def draw_text(text, position):
-        try:
-            emoji_text = emoji.emojize(text + " " + " ".join(selected_emojis), language='alias')
-        except:
-            emoji_text = text + " " + " ".join(selected_emojis)
-        wrapped = textwrap.fill(emoji_text, width=30)
+        wrapped = textwrap.fill(text, width=30)
         draw.text(position, wrapped, font=font, fill=font_color, stroke_width=2, stroke_fill="black")
 
     draw_text(top_text, (10, 10))
