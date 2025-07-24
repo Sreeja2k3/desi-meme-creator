@@ -2,7 +2,7 @@
 
  1. Team Information
 - Team Name: MemeMakers
-- Members: Sreeja, Koushik, Charan, Vennela, Tharun
+- Members: Sreeja, Koushik, Charan, Vennela, Meghana
 
  2. Application Overview
 Desi Meme Creator is a lightweight Streamlit app where users select meme templates and add captions in their local Indian language. It’s fun and engaging while contributing useful, informal language data for Indian AI models.
